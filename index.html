@@ -130,7 +130,7 @@
 
             const ratio = highAvg / (lowAvg + 1);
 
-            const BLOW_RATIO_THRESHOLD = 0.1;
+            const BLOW_RATIO_THRESHOLD = 0.3;
 
             if (ratio > BLOW_RATIO_THRESHOLD && !blown) {
               blown = true;
@@ -169,4 +169,5 @@
       startMicDetection();
     </script>
   </body>
+
 </html>
